@@ -4,11 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "hoorimedia.com",
-      },
-    ],
+        hostname: "**.hoorimedia.com"
+      }
+    ]
   },
-  reactStrictMode: true,
+  reactStrictMode: true
 };
 
 module.exports = nextConfig;

@@ -2,5 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body { font-family: 'Inter', sans-serif; }
-html { scroll-behavior: smooth; }
+html, body {
+  @apply min-h-screen bg-white text-gray-900;
+}
